@@ -101,19 +101,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-background/70" />
                 <a
-                  href="mailto:contact@spasbretagne.fr"
+                  href="mailto:contact@codebyconte.fr"
                   className="text-background/70 hover:text-background transition-colors text-sm"
                 >
-                  contact@spasbretagne.fr
-                </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 text-background/70" />
-                <a
-                  href="tel:+33299000000"
-                  className="text-background/70 hover:text-background transition-colors text-sm"
-                >
-                  02 99 00 00 00
+                  contact@codebyconte.fr
                 </a>
               </li>
             </ul>
@@ -138,6 +129,23 @@ export function Footer() {
               Politique de confidentialité
             </Link>
           </div>
+        </div>
+        <div className="text-background/50 text-sm mt-4 text-center">
+          <Link
+            href="https://www.codebyconte.fr"
+            target="_blank"
+            className="text-background/50 hover:text-background transition-colors"
+          >
+            création de site internet à Brest
+          </Link>{" "}
+          &{" "}
+          <Link
+            href="https://www.codebyconte.fr/services/consultant-seo-brest"
+            target="_blank"
+            className="text-background/50 hover:text-background transition-colors"
+          >
+            consultant SEO à Brest
+          </Link>
         </div>
       </div>
     </footer>
