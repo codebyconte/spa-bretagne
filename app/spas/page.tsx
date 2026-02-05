@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Découvrez tous les spas et centres de bien-être en Bretagne. Filtrez par département, type de soins et tarifs.",
   alternates: {
-    canonical: "/spas",
+    canonical: "https://www.spa-bretagne.fr/spas",
   },
 };
 

@@ -26,10 +26,10 @@ export default function MentionsLegalesPage() {
               Ce site est édité par Spas Bretagne. Pour toute question
               concernant les mentions légales, contactez-nous à{" "}
               <a
-                href="mailto:contact@spasbretagne.fr"
+                href="mailto:contact@codebyconte.fr"
                 className="text-primary hover:underline"
               >
-                contact@spasbretagne.fr
+                contact@codebyconte.fr
               </a>
               .
             </p>

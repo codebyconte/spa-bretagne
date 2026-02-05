@@ -4,7 +4,8 @@ import { DM_Sans, Playfair_Display } from "next/font/google";
 import { AnalyticsProvider } from "@/components/analytics";
 import "./globals.css";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.spasbretagne.fr";
+const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.spa-bretagne.fr";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
