@@ -1,7 +1,7 @@
 import React from "react";
 import type { Metadata, Viewport } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { AnalyticsProvider } from "@/components/analytics";
 import "./globals.css";
 
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.spasbretagne.fr";
@@ -58,7 +58,7 @@ export default function RootLayout({
     <html lang="fr" className={`${dmSans.variable} ${playfair.variable}`}>
       <body className="font-sans antialiased">
         {children}
-        <Analytics />
+        <AnalyticsProvider />
       </body>
     </html>
   );
