@@ -198,11 +198,7 @@ export const spas: Spa[] = [
     fullDescription:
       "Idéalement située entre la magnifique Côte de Granit Rose et la Côte Sauvage, la paisible et pittoresque presqu'île de Locquirec abrite Le Grand Hôtel des Bains, offrant un luxe discret en toutes saisons.",
     image: "/images/1280564.jpg",
-    gallery: [
-      "/images/grand-hotel-des-bains.jpg",
-      "/images/1280565.jpg",
-      "/images/1280566.jpg",
-    ],
+    gallery: ["/images/grand-hotel-des-bains.jpg"],
     rating: 4.5,
     reviewCount: 516,
     priceRange: "€€€",
@@ -459,11 +455,7 @@ export const spas: Spa[] = [
     fullDescription:
       "L'hôtel compte désormais 53 chambres et suites, un restaurant, un bar, une piscine intérieure chauffée, un spa et des salles de réunion.",
     image: "/images/spa-carnac.webp",
-    gallery: [
-      "/images/piscine-carnac.webp",
-      "/images/sauna-carnac.webp",
-      "/images/le-celtique-spa-carnac-3.webp",
-    ],
+    gallery: ["/images/piscine-carnac.webp", "/images/sauna-carnac.webp"],
     rating: 4.5,
     reviewCount: 1900,
     priceRange: "€€",
